@@ -1,0 +1,47 @@
+{
+    "name": "js-exercises",
+    "version": "0.0.1",
+    "description": "",
+    "private": true,
+    "repository": "",
+    "main": "index.html",
+    "author": "iGenius",
+    "files": [
+        "src"
+    ],
+    "scripts": {
+        "start": "parcel index.html --open",
+        "build": "parcel build index.html"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "keywords": [
+        "js",
+        "vanilla-js",
+        "es6",
+        "js-exercises"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "7.2.3",
+        "@babel/core": "7.2.2",
+        "@babel/plugin-proposal-class-properties": "7.3.0",
+        "@babel/preset-env": "7.3.1",
+        "@babel/preset-flow": "7.0.0",
+        "babel-eslint": "10.0.1",
+        "eslint": "5.12.1",
+        "eslint-config-prettier": "4.0.0",
+        "eslint-plugin-flowtype": "3.2.1",
+        "eslint-plugin-flowtype-errors": "3.6.0",
+        "eslint-plugin-import": "2.15.0",
+        "eslint-plugin-jest": "^22.3.0",
+        "eslint-plugin-prettier": "3.0.1",
+        "husky": "1.3.1",
+        "lint-staged": "8.1.1",
+        "parcel-bundler": "^1.6.1",
+        "prettier": "1.16.1"
+    }
+}
