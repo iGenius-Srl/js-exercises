@@ -148,6 +148,6 @@ export function getDone(array) {
  *   totalPrice: 125
  * }
  */
-export function howManyCanIBuy(array) {
+export function howManyCanIBuy(budget, wishlist) {
     // YOUR CODE HERE
 }

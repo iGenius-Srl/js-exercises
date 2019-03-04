@@ -44,7 +44,7 @@
 
 /*
  * Exercise #6
- * Write the function mergeArrays(arr) that takes an array of arrays in input, merges them into
+ * Write the function mergeArrays(arr) that takes an array of arrays|string|number in input, merges them into
  * a single array, and returns it
  * [[1, 2], ["ciao", "mamma"], [3, 4]] -> [1, 2, "ciao", "mamma", 3, 4]
  */
